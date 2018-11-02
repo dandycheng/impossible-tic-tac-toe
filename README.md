@@ -1,6 +1,6 @@
 # impossible-tic-tac-toe
 
-#How it works:
+## How it works:
   1. The middle box is marked as X to make this game impossible
   2. When the player places a mark, the AI checks if there are any rows without player's mark, **AND** includes AI's mark, this provides the AI the fastest step to winning
   3. The AI checks whether or not it is winning, if so, AI will place a mark to win the game
