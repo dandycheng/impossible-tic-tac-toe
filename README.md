@@ -9,3 +9,8 @@
   **6.** A message will pop up indicating win, loss or tie.
 
 *Please note that the X is placed before the game starts due to the complexity of the game. There are more than 50 ways of winning the game, and each method has its unique solution. Therefore machine learning is needed. Hard coded solutions would cause lag spikes.*
+
+
+**Fixes:**
+  - Added support for Microsoft Edge (Replaced `for of` loop for boxes with `for in`, as Edge doesn't support `for of` on nodelists)<6/11/2018>
+  - Removed animation for Microsoft Edge <6/11/2018>
